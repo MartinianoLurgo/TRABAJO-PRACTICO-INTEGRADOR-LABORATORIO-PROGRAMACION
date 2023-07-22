@@ -1,0 +1,4 @@
+01, DJ, Cotillon, Maquillaje,23/07/2023 ,1000
+02, Maquillaje, Musica en vivo, DJ ,22/07/2023, 1500
+03, Decoración, Musica en vivo, Cotillon, 10/07/2023, 700
+04, Maquillaje ,DJ, Musica en vivo , 1/07/2023 

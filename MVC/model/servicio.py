@@ -1,13 +1,13 @@
 class Servicio:
     def __init__(self,idServicio = 0,tipoServicio ="",descripcion ="",costo=0,estado=None):
-        self._idServico = idServicio
+        self._idServicio = idServicio
         self._tipoServicio = tipoServicio
         self._descripcion = descripcion
         self._costo = costo
         self._estado = estado
     
     #Getters
-    def get_id(self):
+    def get_idServicio(self):
         return self._idServicio
     def get_tipoServicio(self):
         return self._tipoServicio
@@ -20,7 +20,7 @@ class Servicio:
 
     
     #Setters
-    def set_id(self,data):
+    def set_idServicio(self,data):
         self._idServicio = data
     def set_tipoServicio(self,data):
         self._tipoServicio = data
@@ -32,4 +32,4 @@ class Servicio:
         self._estado = data
     
     def __str__(self) -> str:
-        return print(f"Id: {self._idServicio}, Tipo de servicio: {self._tipoServicio}, Descripcion: {self._descripcion}, Costo: {self._costo}, Estado: {self._estado}, Lista de servicios: {self._listaServicios}")
+        return print(f"Id: {self._idServicio}, Tipo de servicio: {self._tipoServicio}, Descripcion: {self._descripcion}, Costo: {self._costo}, Estado: {self._estado}")

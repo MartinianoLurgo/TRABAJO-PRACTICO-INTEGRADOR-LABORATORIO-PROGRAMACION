@@ -1,0 +1,7 @@
+1,Musica,Show unico en vivo del artista El Rey Pelusa,400,True
+2,Maquina de humo,Alquiler Maquina Humo Bajo Niebla Burbujas y Laser de todo tipo,320,True
+3,Catering,Servicio de Lunch para mas de 80 personas,250,True
+4,Decoracion,Decoración ambiental incluye Globos Servicio De Gas Helio y Guirnaldas,50,True
+5,Maquillaje,Servicio de maquillaje artístico infantil y glitters,150,True
+6,Cotillon, Repostería + Disfraces + Impresión De Imágenes Comestibles,130,True
+7,Dj,Servicio Alquiler de Dj+Sonido y Luces,350,True

@@ -1,12 +1,12 @@
 class VistaServicio:
     def mostrar_menu_servicios(self):
-        print("🔅================🔸🔱🔸================🔅")
+        print(" 🔅================🔸🔱🔸================🔅")
         print("       BIENVENIDO AL MENU DE SERVICIOS")
-        print("🔅================🔸⚜️🔸================🔅")
-        print("1 - Mostrar lista y costos de servicios")
-        print("2 - Modificar precio de servicios")
-        print("3 - Modificar precio de gasto administrativo")
-        print("4 - Volver al menú principal")
+        print(" 🔅================🔸⚜️🔸================🔅")
+        print(" 1 - Mostrar lista y costos de servicios 📒")
+        print(" 2 - Modificar precio de servicios 💴")
+        print(" 3 - Modificar precio de gasto administrativo 💵")
+        print(" 4 - Volver al menú principal 🔙 ")
 
     def mostrar_servicios(self,data):
         print(data)
@@ -28,6 +28,6 @@ class VistaServicio:
         print("Error, dato ingresado no válido ❌.")
     
     def mostrar_lista_servicios(self):
-        print("🔅================🔸🔱🔸================🔅")
+        print(" 🔅================🔸🔱🔸================🔅")
         print("            LISTA DE SERVICIOS")
-        print("🔅================🔸⚜️🔸================🔅")
+        print(" 🔅================🔸⚜️🔸================🔅")

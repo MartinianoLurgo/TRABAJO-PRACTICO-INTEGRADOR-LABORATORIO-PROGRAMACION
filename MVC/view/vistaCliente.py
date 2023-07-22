@@ -1,26 +1,38 @@
-import os
-import time
-class VistaCliente:
-    def mostrar_menu_clientes(self):
-        print("🔅================🔸🔱🔸================🔅")
+class vistacliente:
+    def mostrar_menu(self):
+        print(" 🔅================🔸🔱🔸================🔅")
         print("       BIENVENIDO AL MENU DE CLIENTES")
-        print("🔅================🔸⚜️🔸================🔅") 
-        print("1 - Mostrar Lista de Clientes ")
-        print("2 - Cambiar Datos del Cliente")
-        print("3 - Salir del Programa")
+        print(" 🔅================🔸⚜🔸================🔅") 
+        print(" 1 - Mostrar Lista de Clientes 🧑‍💻")
+        print(" 2 - Cambiar Datos del Cliente 💱")
+        print(" 3 - Volver al menú principal 🔙 ")
+    def mostrar_lista_clientes(self):
+        print(" 🔅================🔸🔱🔸================🔅")
+        print("             LISTA DE CLIENTES")
+        print(" 🔅================🔸⚜🔸================🔅")
 
+    def mostrar_registro(self):
+        print(" 🔅================🔸🔱🔸================🔅")
+        print("          COMIENZO DE REGISTRO CLIENTE")
+        print(" 🔅================🔸⚜🔸================🔅")
 
-    def pedir_opcion(self):
-        return input("➡️ ")
+    def mostrar(self,id,nombre,apellido,dni,telefono,pago):
+        print(f"{id} - {nombre} - {apellido} - {dni} - {telefono} - {pago}")
     
-    def mostrar_clientes(self,cliente):
-        return f"{cliente}"
+    def cambiar_atributos(self):
+        print(" 🔅================🔸🔱🔸================🔅")
+        print("              CAMBIAR ATRIBUTOS")
+        print(" 🔅================🔸⚜🔸================🔅")
+        print(" 1 - ID")
+        print(" 2 - nombre")
+        print(" 3 - apellido ")
+        print(" 4 - dni")
+        print(" 5 - telefono")
+        print(" 6 - metodo de pago ")
+        return input("Ingrese la opción que desee cambiar ➡️ ")
 
-    def archivo_no_encontrado(self):
-        print("No se encontró ningún archivo de clientes . Se creará uno nuevo.")
-    
-    def pedir_nombre(self):
-        return input ("escriba el nombre la persona que deceas cambiar ")
+    def pedir_id(self):
+        return int(input("Ingrese el ID de la persona que desee cambiar ➡️ "))
     
     def pedir_nombre(self):
         return input("Ingrese el Nombre: ")
@@ -45,17 +57,6 @@ class VistaCliente:
 
     def cliente_no_encontrado(self):
         return("No se encontró el cliente ❌.")
-
-    def cliente_no_encontrado(self):
-        print("No se encontró el cliente ❌.")
-
-    def mostrar_menu_modificar_clientes(self):
-        print("🔅================🔸🔱🔸================🔅")
-        print("  BIENVENIDO AL MENU DE MODIFICAR CLIENTES")
-        print("🔅================🔸⚜️🔸================🔅") 
-        print("1 - Cambiar Nombre del cliente")
-        print("2 - Cambiar Apellido del cliente")
-        print("3 - Cambiar DNI del cliente")
-        print("4 - Cambiar Telefono del cliente")
-        print("5 - Cambiar Método de pago del cliente")
-        print("6 - Volver al menú principal")
+    
+    def archivo_no_encontrado(self):
+        return print("Archivo de Clientes no encontrado")

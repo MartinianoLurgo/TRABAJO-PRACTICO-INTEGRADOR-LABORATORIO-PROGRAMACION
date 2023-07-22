@@ -1,9 +1,8 @@
 class VistaItem:
     def mostrar_menu_item(self):
-        print("🔅================🔸🔱🔸================🔅")
+        print(" 🔅================🔸🔱🔸================🔅")
         print("       BIENVENIDO AL MENU PRINCIPAL")
-        print("🔅================🔸⚜️🔸================🔅")
-
+        print(" 🔅================🔸⚜️🔸================🔅")
 
     def mostrar_importe_servicios(self,servicio):
         return(f"Importe de servicios :{servicio}⛽")
